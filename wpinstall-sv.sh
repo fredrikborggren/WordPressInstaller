@@ -8,7 +8,7 @@ echo "=================================================="
 curl -O https://sv.wordpress.org/latest-sv_SE.tar.gz
 
 # Extract latest WordPress archive
-tar -zxvf latest.tar.gz
+tar -zxvf latest-sv_SE.tar.gz
 
 # Change current directory to extracted WordPress archive
 cd wordpress
@@ -36,7 +36,7 @@ cd ..
 rm -R wordpress
 
 # Remove latest WordPress archive
-rm latest.tar.gz
+rm latest-sv_SE.tar.gz
 
 echo "=================================================="
 echo "Installation completed"
