@@ -1,18 +1,32 @@
 # WordPressInstaller
 Automated WordPress installer bash script
 
-Add alias command to your bash profile
+Edit your bash profile
 
-```$ nano ~/.bash_profile```
-
+```bash
+$ nano ~/.bash_profile
 ```
+
+Add alias command to your bash profile at the very bottom
+
+```bash
 alias wpinstall='sh ~/wpinstall.sh'
+```
+
+Reload your bash profile (or restart terminal)
+
+```bash
+$ source ~/wpinstall.sh
 ```
 
 Change directory to desired WordPress location, e.g:
 
-```$ cd WordPress```
+```bash
+$ cd WordPress
+```
 
 Run installation command
 
-```$ wpinstall```
+```bash
+$ wpinstall
+```
